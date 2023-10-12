@@ -1,4 +1,4 @@
-name: ds-lasalle
+name: machine-learning
 channels:
   - defaults
   - anaconda
@@ -7,6 +7,10 @@ dependencies:
   - python=3.9
   - numpy
   - pandas
+  - scikit-learn
+  - optuna
+  - plotly
   - pip
   - pip:
       - streamlit
+      - botorch
