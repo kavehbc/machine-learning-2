@@ -5,6 +5,9 @@ channels:
   - conda-forge
 dependencies:
   - python=3.9
+  - jupyterlab
+  - jupyterlab_widgets
+  - ipywidgets
   - numpy
   - pandas
   - scikit-learn
